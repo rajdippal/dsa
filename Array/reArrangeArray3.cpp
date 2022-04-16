@@ -5,7 +5,7 @@ using namespace std;
 void reArrange(int arr[], int n){
     int temp[n];
     for(int i=0;i<n;i++)
-        temp[i] = arr[arr[i]];
+        temp[arr[i]] = i;
 
     for(int i=0;i<n;i++)
         cout << temp[i] << " ";
